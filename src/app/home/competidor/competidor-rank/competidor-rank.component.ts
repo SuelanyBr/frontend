@@ -46,8 +46,8 @@ export class CompetidorRankComponent implements OnInit {
    }
 
   ngOnInit() {
-    //this.ranking = new MatTableDataSource<any>(this.mock);
-    this.getCompetidores();
+    this.ranking = new MatTableDataSource<any>(this.mock);
+    //this.getCompetidores();
   }
 
   getCompetidores() {
